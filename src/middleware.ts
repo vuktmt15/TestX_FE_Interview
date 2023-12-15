@@ -1,6 +1,6 @@
 import { NextRequest, NextFetchEvent, NextResponse } from "next/server";
 
-const RESTRICTED_COUNTRIES = ["VN"];
+const RESTRICTED_COUNTRIES = ["JP"];
 
 export async function middleware(request: NextRequest, _next: NextFetchEvent) {
   const res = NextResponse.next();
